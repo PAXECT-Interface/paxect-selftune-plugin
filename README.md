@@ -78,6 +78,9 @@ delivering reproducible performance tuning and runtime optimization for enterpri
 
 ## Installation
 
+Follow these steps to install and validate the PAXECT SelfTune 5-in-1 plugin
+with NumPy benchmarking enabled.
+
 > **Requirements:**  
 > Python **3.10+** and **NumPy ≥ 1.24**
 
