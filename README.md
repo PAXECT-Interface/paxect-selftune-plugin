@@ -158,7 +158,8 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 - For enterprise or OEM inquiries: **enterprise@paxect.com**
 
 ---
-
+Copyright © 2025 PAXECT Interface · Licensed under Apache 2.0
+Deterministic autotuning solutions for enterprise automation and runtime optimization.
 
 
 
