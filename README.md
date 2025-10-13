@@ -137,6 +137,23 @@ PAXECT SelfTune v1.3.3 is verified production-ready, deterministic across OS pla
 and suitable for enterprise deployment and compliance validation.
 
 ---
+---
+
+## Sponsorships & Enterprise Support
+
+PAXECT SelfTune is maintained as a verified open enterprise module.  
+Sponsorships contribute to continuous validation, long-term testing, and deterministic compliance certification across platforms.
+
+ **Enterprise Sponsorship Options**
+- Infrastructure validation and cross-platform QA  
+- CI/CD and performance compliance testing  
+- Integration and OEM partnerships  
+
+ **How to get involved**
+- [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
+- For enterprise or OEM inquiries: **enterprise@paxect.com**
+
+---
 
 
 
