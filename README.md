@@ -49,16 +49,29 @@ It operates fully offline — combining precision control and runtime learning f
 _All demos are plug-and-play and run locally across all supported operating systems._
 
 ---
+ ## Features
 
-## Features
+- **Zero AI:** No artificial intelligence, machine learning, or black-box heuristics.  
+- **Ultra-efficient autotuning:** Deterministic overhead control (default limit: 75%).  
+- **Production-grade logging:** Full UTC-based audit trail for every execution.  
+- **Modular 5-in-1 architecture:** Unified control of five deterministic benchmark modules.  
+- **NumPy-based benchmarking:** Real matrix operations for measurable and reproducible runtime performance.  
+- **Plug & Play:** Lightweight installation — pure Python + NumPy, no external services.  
+- **For research and industry:** Real results, fully deterministic, cross-platform verified.
 
-- **Autonomous optimization:** Learns runtime behavior and adapts automatically.  
-- **Enterprise performance tuning:** Simulates CI/CD pipelines, batch jobs, and local runtimes.  
-- **Observability-ready:** Integrates with Grafana, Kibana, or any BI dashboard via local JSON.  
-- **Security-first:** No network calls, no telemetry, no external dependencies.  
-- **Cloud-native design:** Kubernetes-style demo for container runtime simulation.  
-- **Developer-friendly:** Works in virtualenvs, Docker, or native Python.  
-- **OS-agnostic:** Linux, Windows, macOS, FreeBSD, Android, iOS.  
+---
+
+## Unique 5-in-1 Architecture
+
+The **PAXECT SelfTune Plugin** integrates five deterministic control modules that work in synergy —  
+delivering reproducible performance tuning and runtime optimization for enterprise workloads.
+
+1. **Matrix Benchmarking (NumPy):** Executes *real matrix multiplications* using NumPy for deterministic performance measurement.  
+2. **Batch Size Autotuning:** Dynamically adapts batch size per iteration while preserving reproducibility.  
+3. **Automatic Overhead Limitation:** Enforces runtime limits if average overhead exceeds threshold.  
+4. **Transparent UTC Logging:** Console and file logging with full UTC timestamps (audit-grade traceability).  
+5. **I/O Benchmarking:** Validates disk and channel throughput to include real I/O performance.
+
 
 ---
 
