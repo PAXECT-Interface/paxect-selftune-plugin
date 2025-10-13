@@ -1,51 +1,45 @@
+# SPDX-License-Identifier: Apache-2.0
+# -*- coding: utf-8 -*-
 """
-Demo 05 – Kubernetes Runtime (Local Simulation)
-PAXECT SelfTune Plugin (5-in-1)
---------------------------------
+Demo 05 — Kubernetes Runtime (Local Simulation)
+PAXECT SelfTune 5-in-1 (NumPy Integrated)
+------------------------------------------
 Simulates a simplified Kubernetes-like environment with multiple pods.
-Each simulated pod reports its resource metrics to a shared SelfTune engine,
-which makes deterministic tuning decisions in isolation per pod.
-
-Run with:
-    python demos/demo_05_k8s_runtime_local.py
+Each pod reports its resource metrics to a shared SelfTune engine,
+which performs deterministic tuning and throttling decisions per cycle.
 """
 
 import time
 import random
 from datetime import datetime
-from paxect_selftune_plugin import SelfTune
+from paxect_selftune_plugin import tune, get_logs, run_matrix_benchmark
 
-# Simulated pod identifiers
+print("\nPAXECT SelfTune Kubernetes Runtime Simulation (v1.3.3, NumPy integrated)\n")
+
 pods = ["pod-a", "pod-b", "pod-c"]
+cycles = 5
 
-# Create a shared SelfTune instance (cluster-level)
-engine = SelfTune(
-    name="demo_05_k8s_runtime_local",
-    mode="cluster",
-    verbose=True
-)
-
-print("\n[Demo 05] Starting local Kubernetes runtime simulation...\n")
-
-# Simulate N scheduling cycles
-for cycle in range(5):
-    print(f"\n[Cycle {cycle+1}] ----------------------------")
+for cycle in range(cycles):
+    print(f"\nCycle {cycle + 1}/{cycles} — Cluster iteration")
 
     for pod in pods:
-        metrics = {
-            "pod": pod,
-            "cpu_load": 20 + random.randint(0, 60),
-            "memory_mb": 256 + random.randint(0, 256),
-            "latency_ms": 3.0 + random.random() * 4.0,
-        }
+        # Simulate per-pod metrics
+        exec_time = 0.8 + random.random() * 0.2
+        overhead = 0.2 + random.random() * 0.5
+        data_size = 1024 * (16 + random.randint(0, 128))
 
-        # Each pod request goes through SelfTune deterministically
-        result = engine.run(metrics)
+        decision = tune(exec_time=exec_time, overhead=overhead, last_bytes=data_size)
+        print(f"{pod} → Decision: {decision}")
 
-        print(f"[{datetime.utcnow().isoformat()}Z] {pod} → Decision:")
-        print(result)
+        matrix_time = run_matrix_benchmark(64)
+        print(f"{pod} → Matrix benchmark: {matrix_time:.6f} seconds")
 
-    # Simulate cluster-level delay between cycles
     time.sleep(1.0)
 
-print("\n[Demo 05] Local Kubernetes simulation completed successfully.")
+logs = get_logs(5)
+print("\nRecent tuning logs:")
+for log in logs:
+    print(log)
+
+print(f"\nKubernetes runtime simulation completed successfully at {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
+
