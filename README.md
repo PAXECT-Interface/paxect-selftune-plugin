@@ -144,8 +144,9 @@ PY
 
 ## Sponsorships & Enterprise Support
 
-PAXECT SelfTune is maintained as a verified open enterprise module.  
-Sponsorships contribute to continuous validation, long-term testing, and deterministic compliance certification across platforms.
+PAXECT SelfTune is maintained as a verified plug-and-play enterprise module.  
+Sponsorships enable continuous validation, reproducibility testing, and deterministic compliance across Linux, Windows, and macOS platforms.
+
 
  **Enterprise Sponsorship Options**
 - Infrastructure validation and cross-platform QA  
