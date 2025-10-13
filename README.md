@@ -9,6 +9,7 @@
 [![Issues](https://img.shields.io/badge/Issues-open-blue)](../../issues)
 [![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
+[![NumPy Enabled](https://img.shields.io/badge/NumPy-integrated-blue.svg)](#)
 
 
 
