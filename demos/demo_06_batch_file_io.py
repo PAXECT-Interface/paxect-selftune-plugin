@@ -1,61 +1,61 @@
+# SPDX-License-Identifier: Apache-2.0
+# -*- coding: utf-8 -*-
 """
-Demo 06 – Batch File I/O
-PAXECT SelfTune Plugin (5-in-1)
---------------------------------
-Demonstrates batch processing of input data files.
-The SelfTune engine reads JSONL-formatted metrics, processes them sequentially,
-and writes deterministic tuning decisions to an output file.
-
-Run with:
-    python demos/demo_06_batch_file_io.py
+Demo 06 — Batch File I/O
+PAXECT SelfTune 5-in-1 (NumPy Integrated)
+-----------------------------------------
+Demonstrates deterministic batch processing of JSONL-formatted input metrics.
+Each record is processed through SelfTune, benchmarked with NumPy, and written
+to an output file with full UTC logging.
 """
 
 import json
 from datetime import datetime
 from pathlib import Path
-from paxect_selftune_plugin import SelfTune
+from paxect_selftune_plugin import tune, get_logs, run_matrix_benchmark
 
-# Define file paths (local only)
+# Define input/output paths
 input_file = Path("input_batches.jsonl")
 output_file = Path("output_results.jsonl")
 
-print("\n[Demo 06] Preparing batch file I/O environment...\n")
+print("\nPAXECT SelfTune Batch File I/O (v1.3.3, NumPy integrated)\n")
 
-# Create a dummy input batch if it doesn't exist
+# Create dummy input batch if it does not exist
 if not input_file.exists():
     sample_data = [
-        {"cpu_load": 30, "memory_mb": 256, "io_wait_ms": 5.0},
-        {"cpu_load": 55, "memory_mb": 384, "io_wait_ms": 7.2},
-        {"cpu_load": 68, "memory_mb": 512, "io_wait_ms": 8.4},
-        {"cpu_load": 75, "memory_mb": 640, "io_wait_ms": 9.1},
+        {"exec_time": 0.9, "overhead": 0.2, "last_bytes": 4096},
+        {"exec_time": 1.2, "overhead": 0.3, "last_bytes": 8192},
+        {"exec_time": 1.5, "overhead": 0.4, "last_bytes": 16384},
+        {"exec_time": 0.8, "overhead": 0.25, "last_bytes": 65536},
     ]
     with input_file.open("w", encoding="utf-8") as f:
         for item in sample_data:
             f.write(json.dumps(item) + "\n")
-    print(f"[Info] Created sample input file: {input_file}")
+    print(f"Created sample input file: {input_file}")
 
-# Initialize SelfTune engine
-engine = SelfTune(
-    name="demo_06_batch_file_io",
-    mode="batch",
-    verbose=True
-)
+print("\nProcessing input batches...\n")
 
-print("\n[Demo 06] Processing input batches...\n")
-
-# Read input line by line and process
 results = []
 with input_file.open("r", encoding="utf-8") as f:
     for line_no, line in enumerate(f, start=1):
         record = json.loads(line.strip())
-        result = engine.run(record)
-        results.append(result)
-        print(f"[{datetime.utcnow().isoformat()}Z] Record {line_no} processed.")
+        decision = tune(**record)
+        decision["benchmark_time"] = run_matrix_benchmark(64)
+        decision["record_id"] = line_no
+        results.append(decision)
+        print(f"Record {line_no} processed → Decision: {decision}")
 
-# Write results deterministically to output file
+# Write deterministic output
 with output_file.open("w", encoding="utf-8") as f:
-    for r in results:
-        f.write(json.dumps(r) + "\n")
+    for result in results:
+        f.write(json.dumps(result) + "\n")
 
-print(f"\n[Demo 06] All batches processed successfully.")
-print(f"[Output] Results saved to: {output_file.resolve()}")
+print(f"\nBatch file processing completed successfully at {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
+print(f"Output written to: {output_file.resolve()}")
+
+# Display last few logs
+logs = get_logs(3)
+print("\nRecent tuning logs:")
+for log in logs:
+    print(log)
+
