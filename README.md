@@ -77,12 +77,24 @@ delivering reproducible performance tuning and runtime optimization for enterpri
 
 ## Installation
 
-**Requirements**  
-- Python 3.8 or higher  
-- No third-party dependencies  
+> **Requirements:**  
+> Python **3.10+** and **NumPy ≥ 1.24**
+
+Install locally in editable (development) mode:
 
 ```bash
-git clone https://github.com/your-org/paxect-selftune-5in1.git
-cd paxect-selftune-5in1
 pip install -e .
+
+If NumPy is not yet installed, add it manually:
+
+pip install numpy
+
+
+To verify installation and NumPy integration:
+
+python - <<'PY'
+from paxect_selftune_plugin import run_matrix_benchmark
+print("✅ NumPy benchmark:", run_matrix_benchmark(128), "seconds")
+PY
+
 
