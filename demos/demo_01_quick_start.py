@@ -1,39 +1,35 @@
+# SPDX-License-Identifier: Apache-2.0
+# -*- coding: utf-8 -*-
 """
-Demo 01 – Quick Start
-PAXECT SelfTune Plugin (5-in-1)
---------------------------------
-Minimal demonstration of baseline initialization and first-run tuning.
-This example shows how the SelfTune engine performs its initial decision
-cycle and logs a deterministic control action.
-
-Run with:
-    python demos/demo_01_quick_start.py
+Demo 01 — Quick Start
+PAXECT SelfTune 5-in-1 (NumPy Integrated)
+-----------------------------------------
+Basic quick-start demonstration with deterministic matrix benchmark.
 """
 
-from datetime import datetime
-from paxect_selftune_plugin import SelfTune
+from paxect_selftune_plugin import tune, get_logs, run_matrix_benchmark
+import time
 
-# Initialize SelfTune with minimal configuration
-engine = SelfTune(
-    name="demo_01_quick_start",
-    mode="baseline",
-    verbose=True
-)
+print("\n PAXECT SelfTune Quick Start (v1.3.3, NumPy integrated)\n")
 
-print("\n[Demo 01] Starting baseline tuning sequence...\n")
+# --- Example workload parameters ---
+exec_time = 1.0       # seconds (simulated)
+overhead = 0.2        # seconds (simulated)
+last_bytes = 4096     # bytes processed
 
-# Example input payload (could be sensor values, metrics, etc.)
-sample_input = {
-    "cpu_load": 42.5,
-    "memory_mb": 256,
-    "io_wait_ms": 5.7
-}
+# --- Run tuning decision ---
+decision = tune(exec_time=exec_time, overhead=overhead, last_bytes=last_bytes)
+print("Decision:", decision)
 
-# Execute one deterministic tuning step
-result = engine.run(sample_input)
+# --- Run NumPy benchmark for deterministic test ---
+matrix_time = run_matrix_benchmark(128)
+print(f"Matrix benchmark time: {matrix_time:.6f} seconds")
 
-# Display result
-print(f"[{datetime.utcnow().isoformat()}Z] Decision output:")
-print(result)
+# --- Show recent logs ---
+logs = get_logs(3)
+print("\n Last 3 logs:")
+for log in logs:
+    print(log)
 
-print("\n[Demo 01] Completed successfully.")
+print("\n Demo completed successfully at", time.strftime('%Y-%m-%d %H:%M:%S'))
+
