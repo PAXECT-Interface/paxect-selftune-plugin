@@ -161,5 +161,9 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 Copyright © 2025 PAXECT Interface · Licensed under Apache 2.0
 Deterministic autotuning solutions for enterprise automation and runtime optimization.
 
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
+</p>
+
 
 
