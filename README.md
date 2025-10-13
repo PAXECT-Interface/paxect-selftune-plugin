@@ -1,4 +1,4 @@
-# PAXECT SelfTune 5-in-1 Plugin — Cross-Platform Autotune Enterprise Suite
+# PAXECT SelfTune Plugin — Cross-Platform Autotune Enterprise Suite
 
 **A cross-platform, self-tuning engine that combines five adaptive control techniques in one module: guard mode, overhead control, logging, smoothing, and auto-learning. 100% deterministic. Zero AI.**
 
@@ -8,7 +8,7 @@ _Optimized for Linux, Windows, macOS, FreeBSD, Android, and iOS — plug-and-pla
 
 ## Overview
 
-The **PAXECT SelfTune 5-in-1 Plugin** is an enterprise-ready, open-source solution designed for performance tuning, automation, and local observability.  
+The **PAXECT SelfTune Plugin** is an enterprise-ready, open-source solution designed for performance tuning, automation, and local observability.  
 It operates fully offline — combining precision control and runtime learning for adaptive optimization across diverse environments.
 
 > **Key features**
