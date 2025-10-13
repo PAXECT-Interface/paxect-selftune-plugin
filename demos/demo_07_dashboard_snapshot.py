@@ -1,33 +1,31 @@
+# SPDX-License-Identifier: Apache-2.0
+# -*- coding: utf-8 -*-
 """
-Demo 07 – Dashboard Snapshot
-PAXECT SelfTune Plugin (5-in-1)
---------------------------------
-Generates a compact performance dashboard snapshot from prior batch results.
-This demo reads deterministic output data and aggregates key runtime statistics
-for quick offline visualization or integration into enterprise dashboards.
-
-Run with:
-    python demos/demo_07_dashboard_snapshot.py
+Demo 07 — Dashboard Snapshot
+PAXECT SelfTune 5-in-1 (NumPy Integrated)
+-----------------------------------------
+Generates an aggregated snapshot from deterministic SelfTune batch results.
+Reads output_results.jsonl (from Demo 06) and computes runtime statistics
+for enterprise dashboard or monitoring integration.
 """
 
 import json
 from datetime import datetime
 from pathlib import Path
-from statistics import mean
+from statistics import mean, pstdev
 
-# File produced by demo_06_batch_file_io.py
+# File produced by Demo 06
 input_file = Path("output_results.jsonl")
 snapshot_file = Path("dashboard_snapshot.json")
 
-print("\n[Demo 07] Generating dashboard snapshot...\n")
+print("\nPAXECT SelfTune Dashboard Snapshot (v1.3.3, NumPy integrated)\n")
 
 if not input_file.exists():
     raise FileNotFoundError(
-        f"Input file '{input_file}' not found. "
-        "Please run demo_06_batch_file_io.py first."
+        f"Required file '{input_file}' not found. Run demo_06_batch_file_io.py first."
     )
 
-# Load all records
+# Load deterministic records
 records = []
 with input_file.open("r", encoding="utf-8") as f:
     for line in f:
@@ -37,28 +35,37 @@ with input_file.open("r", encoding="utf-8") as f:
             continue
 
 if not records:
-    raise RuntimeError("No valid records found in output file.")
+    raise RuntimeError("No valid records found in output_results.jsonl")
 
-# Aggregate deterministic metrics
+# Compute aggregate statistics
+blocksizes = [r.get("blocksize", 0) for r in records]
+overheads = [r.get("avg_overhead", 0.0) if "avg_overhead" in r else r.get("overhead", 0.0) for r in records]
+benchmarks = [r.get("benchmark_time", 0.0) for r in records]
+throttles = [r.get("throttle_percent", 0) for r in records if isinstance(r.get("throttle_percent", 0), (int, float))]
+labels = list({r.get("label", "n/a") for r in records})
+policies = list({r.get("policy", "n/a") for r in records})
+
 snapshot = {
-    "datetime_utc": datetime.utcnow().isoformat() + "Z",
+    "datetime_utc": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
     "total_records": len(records),
-    "avg_blocksize": mean(r.get("decision", {}).get("blocksize", 0) for r in records),
-    "avg_overhead": mean(r.get("overhead", 0.0) for r in records),
-    "avg_throttle_percent": mean(
-        r.get("decision", {}).get("throttle_percent", 0)
-        for r in records
-        if isinstance(r.get("decision", {}).get("throttle_percent", 0), (int, float))
-    ),
-    "policies_used": list({r.get("decision", {}).get("policy", "n/a") for r in records}),
+    "avg_blocksize": round(mean(blocksizes), 2) if blocksizes else 0,
+    "avg_overhead": round(mean(overheads), 4) if overheads else 0.0,
+    "avg_benchmark_time": round(mean(benchmarks), 6) if benchmarks else 0.0,
+    "avg_throttle_percent": round(mean(throttles), 2) if throttles else 0.0,
+    "blocksize_stddev": round(pstdev(blocksizes), 2) if len(blocksizes) > 1 else 0.0,
+    "benchmark_stddev": round(pstdev(benchmarks), 6) if len(benchmarks) > 1 else 0.0,
+    "profiles_used": labels,
+    "policies_used": policies,
 }
 
-# Write snapshot to JSON
+# Write snapshot JSON
 with snapshot_file.open("w", encoding="utf-8") as f:
     json.dump(snapshot, f, indent=4)
 
-print("[Dashboard Snapshot]")
+print("Dashboard Snapshot Summary:")
 for k, v in snapshot.items():
     print(f"  {k}: {v}")
 
-print(f"\n[Demo 07] Snapshot saved to: {snapshot_file.resolve()}")
+print(f"\nSnapshot saved to: {snapshot_file.resolve()}")
+print("\n✅ Demo 07 completed successfully.")
+
