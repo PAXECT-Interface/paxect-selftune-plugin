@@ -1,54 +1,42 @@
----
+# DISCLAIMER
 
-###  1️⃣ In je **LICENSE** (Apache 2.0)
-
-Je gebruikt Apache-2.0, en die bevat **al** deze zin:
-
-> “Unless required by applicable law or agreed to in writing,
-> the software is provided ‘AS IS’, without warranties or conditions of any kind,
-> either express or implied, including but not limited to the warranties of merchantability,
-> fitness for a particular purpose and noninfringement.”
-
-→ Dat betekent letterlijk: **geen enkele aansprakelijkheid of garantie**.
-Maar je kunt die bescherming uitbreiden met een korte, expliciete *disclaimer file*.
-
----
-
-###  2️⃣ Maak een bestand `DISCLAIMER.md`
-
-In de root van de repo (naast README.md) — dit is standaard bij grote bedrijven zoals NVIDIA, Meta, en Apache Foundation.
-
-Hier is de inhoud die ik je aanraad (neutraal, juridisch solide, internationaal geldig):
-
----
-
-**DISCLAIMER**
-This software and all associated files are provided by PAXECT “as is” without warranty of any kind.
+This software and all related materials are provided by **PAXECT** “as is”, without warranty of any kind.  
 Use of this software is at your own risk.
-No liability, responsibility, or obligation of any kind shall be assumed by the authors, owners, or contributors of this repository.
+
+No liability, responsibility, or obligation of any kind shall be assumed by the authors, maintainers, or contributors of this repository.
+
+---
+
+### Legal Terms
 
 By downloading, installing, or using this software, you agree that:
 
-* PAXECT and its contributors cannot be held responsible for any loss, damage, or misuse, whether direct or indirect.
-* This software is provided for lawful, educational, or enterprise integration purposes only.
-* The user is solely responsible for compliance with local laws and operational security practices.
-
-For legal context, see also: [LICENSE](./LICENSE) and [SECURITY.md](./SECURITY.md).
-
----
-
-###  3️⃣ Vermelding in de **README (onderaan)**
-
-Voeg dit toe als laatste sectie:
+1. **No Liability** — PAXECT and its contributors shall not be held responsible for any loss, damage, or misuse, whether direct or indirect.  
+2. **No Warranty** — The software is provided without any express or implied warranties, including fitness for a particular purpose, performance, or reliability.  
+3. **Lawful Use Only** — You are solely responsible for ensuring compliance with all local laws, regulations, and data protection requirements.  
+4. **Independent Use** — Any deployment, integration, or modification of this software is performed entirely at your own discretion and risk.  
+5. **No Implied Support** — PAXECT does not provide guarantees, commercial warranties, or operational commitments of any kind.
 
 ---
 
-### Legal Notice
+### Purpose and Scope
 
-All PAXECT repositories are released under the Apache-2.0 License.
-Use of this software implies acceptance of the terms in `LICENSE`, `DISCLAIMER.md`, and `SECURITY.md`.
-PAXECT and its contributors disclaim any liability for misuse or derived works.
+This repository and its related components (Core, AES, Polyglot, SelfTune, Link) are intended for lawful, educational, or enterprise integration use only.  
+The software must not be used for activities that violate privacy laws, export regulations, or ethical standards.
 
 ---
+
+### References
+
+- [LICENSE](./LICENSE) — Apache-2.0 License  
+- [SECURITY.md](./SECURITY.md) — Security and responsible disclosure  
+- [TRADEMARKS.md](./TRADEMARKS.md) — Trademark and branding rights  
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) — Contributor behavior guidelines
+
+---
+
+© PAXECT — All rights reserved under applicable trademark and intellectual property laws.  
+This disclaimer applies to all PAXECT repositories and derived works.
+
 
 
