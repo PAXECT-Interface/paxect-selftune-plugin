@@ -139,7 +139,11 @@ and suitable for enterprise deployment and compliance validation.
 ---
 PY
 ```
+ Have a bug or feature request? Please open an **Issue**.  
+ General questions or ideas? Use **Discussions › Q&A**. We convert strong ideas to Issues so they can ship.
 
+
+⭐ If PAXECT helped you, please consider a star — it helps others discover the project and supports the maintainers.
 
 
 ## Sponsorships & Enterprise Support
