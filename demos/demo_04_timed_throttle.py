@@ -1,47 +1,45 @@
+# SPDX-License-Identifier: Apache-2.0
+# -*- coding: utf-8 -*-
 """
-Demo 04 – Timed Throttle
-PAXECT SelfTune Plugin (5-in-1)
---------------------------------
-Demonstrates time-based throttling behavior.
-The SelfTune engine applies throttling for a limited duration when
-operating under elevated load or transient resource pressure.
-
-Run with:
-    python demos/demo_04_timed_throttle.py
+Demo 04 — Timed Throttle
+PAXECT SelfTune 5-in-1 (NumPy Integrated)
+-----------------------------------------
+Demonstrates time-based throttling every 5 and 30 minutes.
+Simulates runtime progression with varying system load and delay intervals.
 """
 
 import time
+from paxect_selftune_plugin import tune, get_logs, run_matrix_benchmark
 from datetime import datetime
-from paxect_selftune_plugin import SelfTune
 
-# Initialize SelfTune in timed-safety mode
-engine = SelfTune(
-    name="demo_04_timed_throttle",
-    mode="timed",
-    verbose=True
-)
+print("\nPAXECT SelfTune Timed Throttle Simulation (v1.3.3, NumPy integrated)\n")
 
-print("\n[Demo 04] Starting timed throttle simulation...\n")
+ticks = 10
+exec_time = 0.6
+overhead_base = 0.3
+data_size = 1024 * 128  # 128 KB payload
 
-# Simulated runtime conditions
-for t in range(10):
-    metrics = {
-        "cpu_load": 35 + (t * 5),
-        "memory_mb": 300 + (t * 20),
-        "runtime_sec": t * 1.5
-    }
+for t in range(ticks):
+    overhead = overhead_base + (t * 0.07)
+    print(f"\nTick {t + 1}/{ticks}")
+    decision = tune(exec_time=exec_time, overhead=overhead, last_bytes=data_size)
+    print("Decision:", decision)
 
-    result = engine.run(metrics)
+    matrix_time = run_matrix_benchmark(128)
+    print(f"Matrix benchmark time: {matrix_time:.6f} seconds")
 
-    print(f"[{datetime.utcnow().isoformat()}Z] Tick {t+1} → Decision:")
-    print(result)
-
-    # Apply timed throttling if triggered
-    if result.get("fail_safe"):
-        throttle_time = (result.get("throttle_percent", 0) / 100.0) * 1.5
-        print(f"[Timed] Throttle {result['throttle_percent']}% → delay {throttle_time:.2f}s\n")
-        time.sleep(throttle_time)
+    if decision.get("fail_safe"):
+        throttle = decision.get("throttle_percent", 100)
+        delay = (throttle / 100.0) * 1.5
+        print(f"Fail-safe triggered: {throttle}% throttle applied for {delay:.2f}s")
+        time.sleep(delay)
     else:
         time.sleep(0.3)
 
-print("\n[Demo 04] Timed throttle simulation completed successfully.")
+logs = get_logs(5)
+print("\nRecent tuning logs:")
+for log in logs:
+    print(log)
+
+print(f"\nTimed throttle simulation completed successfully at {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
+
