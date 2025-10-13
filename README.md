@@ -99,8 +99,11 @@ To verify installation and NumPy integration:
 python - <<'PY'
 from paxect_selftune_plugin import run_matrix_benchmark
 print("✅ NumPy benchmark:", run_matrix_benchmark(128), "seconds")
-PY
 
----
+PY
+```
+
+
+
 
 
