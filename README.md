@@ -13,7 +13,7 @@
 
 
 
-# PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
+# **Plug-and-Play Ready** PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
 
 **A cross-platform, self-tuning engine that combines five adaptive control techniques in one module: guard mode, overhead control, logging, smoothing, and auto-learning. 100% deterministic. no-AI.**
 
