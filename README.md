@@ -103,6 +103,11 @@ PY
 
 ---
 
+
+
+
+---
+
 ### Verification Summary
 
 All seven functional demos were executed successfully on Ubuntu 24.04 (x86_64),
@@ -133,4 +138,5 @@ PAXECT SelfTune v1.3.3 is verified production-ready, deterministic across OS pla
 and suitable for enterprise deployment and compliance validation.
 
 ---
+
 
