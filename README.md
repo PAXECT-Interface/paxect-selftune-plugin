@@ -23,7 +23,7 @@ _Optimized for Linux, Windows, macOS, FreeBSD, Android, and iOS — plug-and-pla
 
 ## Overview
 
-The **PAXECT SelfTune ** is an enterprise-ready, open-source solution designed for performance tuning, automation, and local observability.  
+The **PAXECT SelfTune Plug-and-Play Ready** is an enterprise-ready, open-source solution designed for performance tuning, automation, and local observability.  
 It operates fully offline — combining precision control and runtime learning for adaptive optimization across diverse environments.
 
 > **Key features**
