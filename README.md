@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="assets/paxect_logo.png" alt="PAXECT Logo" width="180"/>
-</p>
-
-# SelfTune 5-in-1 Plugin by PAXECT Interface
+![ChatGPT Image](images/ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png)
 
 
 
