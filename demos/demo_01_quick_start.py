@@ -4,32 +4,26 @@
 Demo 01 — Quick Start
 PAXECT SelfTune 5-in-1 (NumPy Integrated)
 -----------------------------------------
-Basic quick-start demonstration with deterministic matrix benchmark.
+Minimal demonstration of the SelfTune engine.
+Performs one deterministic tuning step and a matrix benchmark.
 """
 
 from paxect_selftune_plugin import tune, get_logs, run_matrix_benchmark
-import time
+from datetime import datetime
 
-print("\n PAXECT SelfTune Quick Start (v1.3.3, NumPy integrated)\n")
+print("\nPAXECT SelfTune Quick Start (v1.3.3, NumPy integrated)\n")
 
-# --- Example workload parameters ---
-exec_time = 1.0       # seconds (simulated)
-overhead = 0.2        # seconds (simulated)
-last_bytes = 4096     # bytes processed
-
-# --- Run tuning decision ---
-decision = tune(exec_time=exec_time, overhead=overhead, last_bytes=last_bytes)
+decision = tune(exec_time=1.0, overhead=0.2, last_bytes=4096)
 print("Decision:", decision)
 
-# --- Run NumPy benchmark for deterministic test ---
-matrix_time = run_matrix_benchmark(128)
-print(f"Matrix benchmark time: {matrix_time:.6f} seconds")
+benchmark_time = run_matrix_benchmark(128)
+print(f"Matrix benchmark time: {benchmark_time:.6f} seconds")
 
-# --- Show recent logs ---
 logs = get_logs(3)
-print("\n Last 3 logs:")
+print("\nLast 3 logs:")
 for log in logs:
     print(log)
 
-print("\n Demo completed successfully at", time.strftime('%Y-%m-%d %H:%M:%S'))
+print(f"\nDemo completed successfully at {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
+
 
