@@ -15,7 +15,7 @@
 
 # PAXECT SelfTune Plugin — Cross-Platform Autotune Enterprise Suite
 
-**A cross-platform, self-tuning engine that combines five adaptive control techniques in one module: guard mode, overhead control, logging, smoothing, and auto-learning. 100% deterministic. Zero AI.**
+**A cross-platform, self-tuning engine that combines five adaptive control techniques in one module: guard mode, overhead control, logging, smoothing, and auto-learning. 100% deterministic. no AI.**
 
 _Optimized for Linux, Windows, macOS, FreeBSD, Android, and iOS — plug-and-play with zero dependencies and no vendor lock-in._
 
@@ -52,7 +52,7 @@ _All demos are plug-and-play and run locally across all supported operating syst
 ---
  ## Features
 
-- **Zero AI:** No artificial intelligence, machine learning, or black-box heuristics.  
+- **No AI:** No artificial intelligence, machine learning, or black-box heuristics.  
 - **Ultra-efficient autotuning:** Deterministic overhead control (default limit: 75%).  
 - **Production-grade logging:** Full UTC-based audit trail for every execution.  
 - **Modular 5-in-1 architecture:** Unified control of five deterministic benchmark modules.  
