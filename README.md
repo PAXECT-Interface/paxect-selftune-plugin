@@ -93,6 +93,8 @@ If NumPy is not yet installed, add it manually:
 
 pip install numpy
 
+PY
+```
 
 To verify installation and NumPy integration:
 
