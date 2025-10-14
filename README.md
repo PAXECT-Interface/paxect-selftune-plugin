@@ -145,22 +145,21 @@ All seven demos were executed successfully on **Ubuntu 24.04 (x86_64)**, confirm
 ## Community & Support
 
 **Have a bug or feature request?**  
-[![Issues](https://img.shields.io/github/issues/PAXECT-Interface/paxect-selftune-plugin?cacheSeconds=300)](https://github.com/PAXECT-Interface/paxect-selftune-plugin/issues) 
-We track all confirmed issues and enhancement proposals here.
+[Open an Issue ›](https://github.com/PAXECT-Interface/paxect-selftune-plugin/issues)  
+We track all confirmed issues and enhancement proposals there.
 
 **General questions or ideas?**  
-Join the [![Discussions](https://img.shields.io/github/discussions/PAXECT-Interface/paxect-selftune-plugin?cacheSeconds=300)](https://github.com/PAXECT-Interface/paxect-selftune-plugin/discussions)
-
+[Join the Discussions › Q&A](https://github.com/PAXECT-Interface/paxect-selftune-plugin/discussions)  
 We regularly review strong ideas and convert them into Issues so they can ship.
 
 ---
 
-### Project Recognition
+## Project Recognition
 
 If **PAXECT SelfTune** helped your research, deployment, or enterprise project,  
-please consider giving the repository a **⭐ Star on GitHub** —  
+please consider giving the repository a [Star on GitHub](https://github.com/PAXECT-Interface/paxect-selftune-plugin/stargazers) —  
 it helps others discover the project and supports long-term maintenance.
-[![Stars](https://img.shields.io/github/stars/PAXECT-Interface/paxect-selftune-plugin?cacheSeconds=300)](https://github.com/PAXECT-Interface/paxect-selftune-plugin/stargazers)
+
 
 
 
