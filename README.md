@@ -145,7 +145,7 @@ All seven demos were executed successfully on **Ubuntu 24.04 (x86_64)**, confirm
 ## Community & Support
 
 **Have a bug or feature request?**  
-[Open an Issue](https://github.com/<YOUR_USERNAME>/paxect-selftune-plugin/issues)  
+[![Issues](https://img.shields.io/github/issues/PAXECT-Interface/paxect-selftune-plugin?cacheSeconds=300)](https://github.com/PAXECT-Interface/paxect-selftune-plugin/issues) 
 We track all confirmed issues and enhancement proposals here.
 
 **General questions or ideas?**  
@@ -160,8 +160,8 @@ We regularly review strong ideas and convert them into Issues so they can ship.
 If **PAXECT SelfTune** helped your research, deployment, or enterprise project,  
 please consider giving the repository a **⭐ Star on GitHub** —  
 it helps others discover the project and supports long-term maintenance.
+[![Stars](https://img.shields.io/github/stars/PAXECT-Interface/paxect-selftune-plugin?cacheSeconds=300)](https://github.com/PAXECT-Interface/paxect-selftune-plugin/stargazers)
 
-[Star this repository](https://github.com/<YOUR_USERNAME>/paxect-selftune-plugin)
 
 
 
