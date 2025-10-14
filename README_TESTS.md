@@ -136,7 +136,7 @@ The SelfTune Plugin is developed and tested according to the following standards
 ## 9. License
 
 All test utilities and scripts are released under the same license as the core engine: **Apache 2.0**.
-© 2025 PAXECT Systems. All rights reserved.
+                 © 2025 PAXECT Systems. All rights reserved.
 
 
 
