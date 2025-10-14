@@ -140,6 +140,8 @@ All seven demos were executed successfully on **Ubuntu 24.04 (x86_64)**, confirm
 ---
 
 
+---
+
 ## Community & Support
 
 **Have a bug or feature request?**  
@@ -159,6 +161,7 @@ please consider giving the repository a **⭐ Star on GitHub** —
 it helps others discover the project and supports long-term maintenance.
 
 [Star this repository](https://github.com/<YOUR_USERNAME>/paxect-selftune-plugin)
+
 
 
 
