@@ -1,13 +1,4 @@
-Perfect — volledig logisch, en precies wat grote bedrijven doen.
-Laten we het dus zakelijk, clean en professioneel houden — **geen emoji’s, geen symbolen, alleen enterprise-stijl opmaak.**
 
-Hier is de **strakke, zakelijke versie van jouw `README_TESTS.md`**, geschikt voor een public GitHub repository of corporate codebase (zoals bij OpenAI, Google, of Elastic).
-
----
-
-## README_TESTS.md
-
-```markdown
 # PAXECT SelfTune Plugin — Test and Quality Validation
 
 This document provides a detailed overview of the testing, coverage, and validation framework for the  
