@@ -145,6 +145,8 @@ All seven demos were executed successfully on **Ubuntu 24.04 (x86_64)**, confirm
 ⭐ If PAXECT helped you, please consider a star — it helps others discover the project and supports the maintainers.
 
 
+
+---
 ## Sponsorships & Enterprise Support
 
 PAXECT SelfTune is maintained as a verified plug-and-play enterprise module.  
