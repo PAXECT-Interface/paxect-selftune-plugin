@@ -149,7 +149,8 @@ All seven demos were executed successfully on **Ubuntu 24.04 (x86_64)**, confirm
 We track all confirmed issues and enhancement proposals here.
 
 **General questions or ideas?**  
-Join the [Discussions › Q&A](https://github.com/<YOUR_USERNAME>/paxect-selftune-plugin/discussions/categories/q-a).  
+Join the [![Discussions](https://img.shields.io/github/discussions/PAXECT-Interface/paxect-selftune-plugin?cacheSeconds=300)](https://github.com/PAXECT-Interface/paxect-selftune-plugin/discussions)
+
 We regularly review strong ideas and convert them into Issues so they can ship.
 
 ---
