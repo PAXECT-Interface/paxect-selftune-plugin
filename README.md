@@ -12,129 +12,129 @@
 [![NumPy Enabled](https://img.shields.io/badge/NumPy-integrated-blue.svg)](#)
 
 
+Perfect — je hebt hier al een uitstekende **enterprise-README**-basis.
+Wat ik hieronder heb gedaan is jouw tekst **geherstructureerd, geprofessionaliseerd en geformatteerd** tot een public-ready document, in de stijl van **HashiCorp, Databricks, NVIDIA, en OpenAI repos**.
+Het blijft volledig zakelijk, zonder emoji’s, en geschikt voor je **hoofd-README.md**.
 
-#  PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
+---
 
-**A cross-platform, self-tuning engine that combines five adaptive control techniques in one module: guard mode, overhead control, logging, smoothing, and auto-learning. 100% deterministic. no-AI.**
+# PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
 
-_Optimized for Linux, Windows, macOS, FreeBSD, Android, and iOS — plug-and-play with zero dependencies and no vendor lock-in._
+A cross-platform, self-tuning engine that combines five adaptive control techniques in one unified module: guard mode, overhead control, logging, smoothing, and self-learning.
+Fully deterministic. No AI or heuristic randomness.
+
+Optimized for **Linux, Windows, macOS, FreeBSD, Android, and iOS** — plug-and-play with zero dependencies and no vendor lock-in.
 
 ---
 
 ## Overview
 
-The **PAXECT SelfTune Plug-and-Play** is an enterprise-ready, open-source solution designed for performance tuning, automation, and local observability.  
-It operates fully offline — combining precision control and runtime learning for adaptive optimization across diverse environments.
+**PAXECT SelfTune** is an enterprise-ready, open-source solution for deterministic performance tuning, automated optimization, and local observability.
+It operates fully offline, combining precision control with adaptive runtime learning for consistent optimization across diverse workloads.
 
-> **Key features**
-> - Guard mode with auto-failover  
-> - Dynamic overhead control  
-> - Smart logging & smoothing  
-> - Self-learning without AI  
-> - Ready for CI/CD, runtime analytics, and secure environments  
+### Key Features
+
+* Guard mode with automatic failover
+* Dynamic overhead control (default: 75%)
+* Deterministic smoothing and logging
+* Self-learning without AI or cloud components
+* Designed for CI/CD, analytics, and secure offline environments
 
 ---
 
 ## Demos Included
 
-| Demo | Name                      | Function                               | Mode   | Status |
-| ---- | -------------------------- | -------------------------------------- | ------ | ------- |
-| 1    | Quick Start                | Basic decision logic                   | Local  | ✅ |
-| 2    | Integration Loop           | Continuous feedback integration        | Local  | ✅ |
-| 3    | Safety & Manual Cooldown   | Fail-safe + manual throttling          | Local  | ✅ |
-| 4    | Timed Throttle             | Time-based limitation (5m / 30m rules) | Local  | ✅ |
-| 5    | K8s Runtime Simulation     | Container workload simulation          | Local  | ✅ |
-| 6    | Batch File I/O             | Offline optimizer (file-based)         | Local  | ✅ |
-| 7    | Dashboard Snapshot         | Export local stats for dashboards      | Local  | ✅ |
+| Demo | Name                     | Function                                     | Mode  | Status |
+| ---- | ------------------------ | -------------------------------------------- | ----- | ------ |
+| 1    | Quick Start              | Basic decision logic                         | Local | ✅      |
+| 2    | Integration Loop         | Continuous feedback integration              | Local | ✅      |
+| 3    | Safety & Manual Cooldown | Fail-safe and manual throttling              | Local | ✅      |
+| 4    | Timed Throttle           | 5-minute and 30-minute throttling rules      | Local | ✅      |
+| 5    | K8s Runtime Simulation   | Deterministic container workload simulation  | Local | ✅      |
+| 6    | Batch File I/O           | Offline optimization for sequential jobs     | Local | ✅      |
+| 7    | Dashboard Snapshot       | Export runtime state for dashboard reporting | Local | ✅      |
 
-_All demos are plug-and-play and run locally across all supported operating systems._
-
----
- ## Features
-
-- **No-AI:** No artificial intelligence, machine learning, or black-box heuristics.  
-- **Ultra-efficient autotuning:** Deterministic overhead control (default limit: 75%).  
-- **Production-grade logging:** Full UTC-based audit trail for every execution.  
-- **Modular 5-in-1 architecture:** Unified control of five deterministic benchmark modules.  
-- **NumPy-based benchmarking:** Real matrix operations for measurable and reproducible runtime performance.  
-- **Plug & Play:** Lightweight installation — pure Python + NumPy, no external services.  
-- **For research and industry:** Real results, fully deterministic, cross-platform verified.
+All demos are portable and run locally on all supported platforms.
 
 ---
 
-## Unique 5-in-1 Architecture
+## Core Capabilities
 
-The **PAXECT SelfTune Plugin** integrates five deterministic control modules that work in synergy —  
-delivering reproducible performance tuning and runtime optimization for enterprise workloads.
+* **No-AI Policy:** No artificial intelligence, machine learning, or probabilistic models.
+* **Deterministic Autotuning:** Ensures predictable, repeatable runtime optimization.
+* **Production-Grade Logging:** Every decision recorded with UTC timestamp and full context.
+* **Unified 5-in-1 Architecture:** Guard, learn, smooth, throttle, and log within one engine.
+* **NumPy Benchmarking:** Uses real matrix multiplication for reproducible CPU performance metrics.
+* **Cross-Platform & Lightweight:** Written in pure Python, requires only NumPy.
 
-1. **Matrix Benchmarking (NumPy):** Executes *real matrix multiplications* using NumPy for deterministic performance measurement.  
-2. **Batch Size Autotuning:** Dynamically adapts batch size per iteration while preserving reproducibility.  
-3. **Automatic Overhead Limitation:** Enforces runtime limits if average overhead exceeds threshold.  
-4. **Transparent UTC Logging:** Console and file logging with full UTC timestamps (audit-grade traceability).  
-5. **I/O Benchmarking:** Validates disk and channel throughput to include real I/O performance.
+---
 
+## Architecture Overview
+
+The **5-in-1 deterministic engine** integrates five coordinated control modules that ensure predictable optimization and verifiable performance.
+
+| Module                        | Description                                                      |
+| ----------------------------- | ---------------------------------------------------------------- |
+| Matrix Benchmarking (NumPy)   | Executes real matrix multiplications for precise runtime metrics |
+| Batch Size Autotuning         | Dynamically adjusts block size per iteration                     |
+| Automatic Overhead Limitation | Enforces throttle when overhead exceeds configured ratio         |
+| Transparent UTC Logging       | Outputs structured logs for full auditability                    |
+| I/O Benchmarking              | Measures disk and channel throughput deterministically           |
 
 ---
 
 ## Installation
 
-Follow these steps to install and validate the PAXECT SelfTune 5-in-1 plugin
-with NumPy benchmarking enabled.
-
-> **Requirements:**  
-> Python **3.10+** and **NumPy ≥ 1.24**
-
-Install locally in editable (development) mode:
+**Requirements:**
+Python 3.10+ and NumPy ≥ 1.24
 
 ```bash
+# Install locally in editable mode
 pip install -e .
 
-If NumPy is not yet installed, add it manually:
-
+# Install NumPy if not yet available
 pip install numpy
-
-PY
 ```
 
-To verify installation and NumPy integration:
+### Verification
 
+To confirm successful installation and NumPy integration:
+
+```bash
 python - <<'PY'
 from paxect_selftune_plugin import run_matrix_benchmark
-print("✅ NumPy benchmark:", run_matrix_benchmark(128), "seconds")
-
+print("NumPy benchmark:", run_matrix_benchmark(128), "seconds")
 PY
 ```
 
 ---
 
-### Verification Summary
+## Verification Summary
 
-All seven functional demos were executed successfully on Ubuntu 24.04 (x86_64),
-confirming deterministic and cross-platform compatibility of the SelfTune 5-in-1 engine.
+All seven demos were executed successfully on **Ubuntu 24.04 (x86_64)**, confirming deterministic behavior and cross-platform reproducibility.
 
-| Demo | Title | Verified Functionality |
-|------|--------|-------------------------|
-| **01** | Quick Start | Baseline initialization, single decision cycle with deterministic output. |
-| **02** | Integration Loop | Continuous learning feedback loop under dynamic runtime metrics. |
-| **03** | Safety Throttle | Automatic fail-safe throttling under sustained overhead > 75%. |
-| **04** | Timed Throttle | Scheduled throttle triggers (5 min / 30 min) and cooldown control. |
-| **05** | Kubernetes Runtime (Local)** | Multi-pod simulation using shared deterministic tuning state. |
-| **06** | Batch File I/O | Sequential processing of JSONL batches with deterministic results. |
-| **07** | Dashboard Snapshot | Aggregation of prior results into structured audit-ready metrics. |
+| Demo | Title              | Verified Functionality                                       |
+| ---- | ------------------ | ------------------------------------------------------------ |
+| 01   | Quick Start        | Baseline decision logic with consistent output               |
+| 02   | Integration Loop   | Continuous learning feedback under varying conditions        |
+| 03   | Safety Throttle    | Automatic fail-safe activation above 75% overhead            |
+| 04   | Timed Throttle     | Verified 5-minute and 30-minute cooldown control             |
+| 05   | Kubernetes Runtime | Deterministic multi-pod simulation with shared tuning state  |
+| 06   | Batch File I/O     | Sequential JSONL batch optimization with reproducible output |
+| 07   | Dashboard Snapshot | Export and merge of prior runs into audit-ready metrics      |
 
-**Verification result:**  
-✅ All demos completed deterministically without drift or non-reproducible output.  
-✅ Benchmarks validated consistent NumPy matrix times across runs.  
-✅ No external dependencies, telemetry, or stochastic AI behavior detected.  
+**Verification Results:**
 
-**Test environments:**  
-- Ubuntu 24.04 LTS (x86_64)  
-- Windows 11 Pro (22H2)  
-- macOS 14 Sonoma  
+* All demos completed deterministically with no runtime drift
+* Consistent NumPy benchmark times across all runs
+* No external dependencies or non-deterministic components detected
 
-**Conclusion:**  
-PAXECT SelfTune v1.3.3 is verified production-ready, deterministic across OS platforms,  
-and suitable for enterprise deployment and compliance validation.
+**Test Environments:**
+
+* Ubuntu 24.04 LTS (x86_64)
+* Windows 11 Pro (22H2)
+* macOS 14 Sonoma
+
 
 ---
 PY
