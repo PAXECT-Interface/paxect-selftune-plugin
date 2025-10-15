@@ -182,6 +182,8 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 - [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
 - For enterprise or OEM inquiries: **enterprise@PAXECT-Team@outlook.com**
 
+
+---
 ### Contact
 
 📧 contact@PAXECT-Team@outlook.com  
@@ -193,6 +195,8 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 Copyright © 2025 PAXECT · Licensed under Apache 2.0
 Deterministic autotuning solutions for enterprise automation and runtime optimization.
 
+
+---
 <p align="center">
   <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
 </p>
