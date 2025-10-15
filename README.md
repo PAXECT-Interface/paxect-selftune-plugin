@@ -180,8 +180,14 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 
  **How to get involved**
 - [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
-- For enterprise or OEM inquiries: **enterprise@paxect.com**
+- For enterprise or OEM inquiries: **enterprise@PAXECT-Team@outlook.com**
 
+### Contact
+
+📧 contact@PAXECT-Team@outlook.com  
+
+🐞 [Issues](https://github.com/PAXECT-Interface/PAXECT---Core/issues)  
+💬 [Discussions](https://github.com/PAXECT-Interface/PAXECT---Core/discussions)  
 ---
 Copyright © 2025 PAXECT · Licensed under Apache 2.0
 Deterministic autotuning solutions for enterprise automation and runtime optimization.
