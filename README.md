@@ -219,11 +219,11 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 
 
 ---
-![PAXECT Architecture](docs/paxect_architecture_brand_v18.svg) 
 
 
 
----
+
+
 
 Copyright © 2025 PAXECT · Licensed under Apache 2.0
 Deterministic autotuning solutions for enterprise automation and runtime optimization.
