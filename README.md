@@ -217,6 +217,7 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 🐞 [Issues](https://github.com/PAXECT-Interface/PAXECT---Core/issues)  
 💬 [Discussions](https://github.com/PAXECT-Interface/PAXECT---Core/discussions)  
 
+- [Test Framework](README_TESTS.md) — validation, coverage, and CI integration  
 
 ---
 Copyright © 2025 PAXECT · Licensed under Apache 2.0
