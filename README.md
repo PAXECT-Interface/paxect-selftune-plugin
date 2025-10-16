@@ -135,6 +135,18 @@ All seven demos were executed successfully on **Ubuntu 24.04 (x86_64)**, confirm
 
 ---
 
+| Plugin               | Scope                           | Highlights                                                                                   | Repo |
+|----------------------|----------------------------------|----------------------------------------------------------------------------------------------|------|
+| **AEAD Hybrid**       | Confidentiality & integrity      | AES-256 GCM/CTR, scrypt KDF, AAD; strict **fail-stop** on mismatch                           | https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin |
+| **Polyglot**         | Language bindings                | Python, Node.js, Go; identical deterministic pipeline across runtimes                        | https://github.com/PAXECT-Interface/paxect-polyglot-plugin |
+| **SelfTune 5-in-1**  | Performance & observability      | No-AI autotune: guardrails, overhead control, rate-limiting/backpressure, jitter smoothing, lightweight observability | https://github.com/PAXECT-Interface/paxect-selftune-plugin |
+| **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange        | Shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server | https://github.com/PAXECT-Interface/paxect-link-plugin |
+
+
+
+
+
+
 
 ## Path to Paid
 
@@ -216,12 +228,7 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 
 
 ---
-| Plugin               | Scope                           | Highlights                                                                                   | Repo |
-|----------------------|----------------------------------|----------------------------------------------------------------------------------------------|------|
-| **AEAD Hybrid**       | Confidentiality & integrity      | AES-256 GCM/CTR, scrypt KDF, AAD; strict **fail-stop** on mismatch                           | https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin |
-| **Polyglot**         | Language bindings                | Python, Node.js, Go; identical deterministic pipeline across runtimes                        | https://github.com/PAXECT-Interface/paxect-polyglot-plugin |
-| **SelfTune 5-in-1**  | Performance & observability      | No-AI autotune: guardrails, overhead control, rate-limiting/backpressure, jitter smoothing, lightweight observability | https://github.com/PAXECT-Interface/paxect-selftune-plugin |
-| **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange        | Shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server | https://github.com/PAXECT-Interface/paxect-link-plugin |
+
 
 
 
