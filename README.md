@@ -334,11 +334,15 @@ Once these files are present, run the demos:
 
 
 
-```bash
+
 python demos/complete_demo_01_quick_start.py
+
 python demos/complete_demo_02_integration_loop.py
+
 python demos/complete_demo_03_metrics_health.py
+
 python demos/complete_demo_04_health_metrics.py
+
 python demos/complete_demo_05_ci_cd_pipeline.py
 
 
