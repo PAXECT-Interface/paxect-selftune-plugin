@@ -259,5 +259,119 @@ Deterministic autotuning solutions for enterprise automation and runtime optimiz
   <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
 </p>
 
+---
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
+</p>
 
+
+
+---
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
+</p>
+
+
+---
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
+</p>
+
+
+---
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
+</p>
+
+
+---
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
+</p>
+
+
+---
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
+</p>
+
+
+---
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
+</p>
+
+## Keywords & Topics
+
+**PAXECT SelfTune** — deterministic **5-in-1 runtime control** for predictable performance across systems and workloads: **guardrails**, **overhead caps**, **deterministic smoothing**, **structured logging**, and **local learning**.
+Designed for zero-telemetry, **offline** operation across **Linux**, **macOS**, and **Windows** — plug-and-play for CI/CD and enterprise environments.
+
+These keywords improve discoverability on GitHub and search engines:
+
+* **Runtime/Control:** paxect, selftune, deterministic, runtime-control, guardrails, throttling, backpressure, cooldown, jitter-control, stability
+* **Observability & Logging:** structured-logging, jsonl, metrics, telemetry-free, audit-trail, utc-logging, reproducible-logs
+* **Determinism & Reproducibility:** reproducible, repeatable, deterministic-computing, zero-ai, offline-mode, air-gapped
+* **Performance/CI:** overhead-control, performance, optimization, ci-cd, workload-governor, control-plane, reliability
+* **Interoperability:** cross-os, cross-platform, linux, windows, macos, android, ios
+* **Use Domains:** devops, analytics, batch-processing, edge-computing, scientific-computing, secure-ops
+* **PAXECT Ecosystem:** paxect-core, paxect-link, paxect-polyglot, paxect-aead, deterministic-pipeline, audit-ready
+
+## Why PAXECT SelfTune (recap)
+
+* Deterministic **5-in-1** engine: guard · overhead caps · smoothing · logging · local learning
+* **Offline/air-gapped** operation: zero telemetry, no heuristics/AI
+* Cross-OS ready for CI/CD, analytics, and secure enterprise environments
+* Structured **JSONL** logs with UTC timestamps for full auditability
+
+## Use Cases (examples)
+
+* CI/CD guardrails: cap overhead at defined thresholds and enforce cooldown windows
+* Batch/ETL stability: deterministic smoothing to reduce jitter and spikes
+* Edge/air-gapped deployments: local learning without network or cloud
+* Performance SLOs: predictable throttling/backpressure under load
+
+## Integration (ecosystem overview)
+
+* **Core:** deterministic `.freq` v42 container (CRC32 + SHA-256 integrity)
+* **Link:** inbox/outbox bridge for deterministic file hand-offs
+* **Polyglot:** language bindings (Python/Node/Go) for cross-runtime workflows
+* **AEAD Hybrid:** optional encryption layer for confidential pipelines
+* All components adhere to deterministic contracts (reproducible, audit-ready).
+
+## License, Community & Contact
+
+* **License:** Apache-2.0
+* **Community:** GitHub Discussions & Issues
+* **Support:** enterprise@[paxect-team@outlook.com](mailto:paxect-team@outlook.com)
+* **Security:** no telemetry, fully offline and auditable.
+
+---
+
+### ✅ Launch Summary — October 2025
+
+**Status:** Production-ready · Cross-OS verified · Deterministic runtime control
+All 7 demos validated on Ubuntu 24.04 LTS, Windows 11 Pro, and macOS 14 Sonoma.
+Consistent runtime behavior confirmed across workloads.
+Fully compatible with **PAXECT Core v42** and related plugins (Link, Polyglot, AEAD).
+Zero-AI verified: deterministic control only — no heuristics, no telemetry.
+
+---
+
+<!--
+GitHub Topics:
+paxect selftune deterministic runtime-control guardrails throttling backpressure cooldown
+smoothing jitter-control logging observability jsonl audit-trail zero-ai offline air-gapped
+cross-os performance ci-cd reproducible reproducibility devops analytics edge-computing
+paxect-core paxect-link paxect-polyglot paxect-aead deterministic-computing pipeline
+
+Keywords:
+PAXECT SelfTune, deterministic runtime control, guard mode, overhead caps,
+deterministic smoothing, structured logging, local learning,
+offline control-plane, zero telemetry, CI/CD guardrails, cross-OS performance,
+reproducible systems, audit-ready logs, deterministic computing
+-->
+
+✅ **Deterministic · Offline · Zero-AI**
+
+© 2025 PAXECT Systems. Deterministic runtime control for the modern enterprise.
 
