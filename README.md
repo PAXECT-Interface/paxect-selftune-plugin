@@ -331,23 +331,6 @@ python demos/complete_demo_05_ci_cd_pipeline.py     # Prints AUDIT_SUMMARY_JSON=
 * **AEAD Hybrid**: authenticated encryption with reproducible outcomes
 * **Polyglot**: CLI bridges for stdin/stdout and file I/O
 
-## Requirements
-
-- Python 3.9–3.12
-- No internet connection, no Docker, no pip packages
-- Place the following plugin blueprints in the **repository root** (same folder as `demos/`):
-  - `paxect_core.py`
-  - `paxect_link_plugin.py`
-  - `paxect_aead_enterprise.py`
-  - `paxect_polyglot_plugin.py`
-  - `paxect_selftune.py`
-
-
-
-
-
-
-
 
 
 ---
