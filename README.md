@@ -259,6 +259,87 @@ Deterministic autotuning solutions for enterprise automation and runtime optimiz
   <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
 </p>
 
+
+
+
+---
+
+# PAXECT Core Complete
+
+Deterministic, offline-first runtime for secure, reproducible data pipelines. Cross-platform. Audit-ready.
+
+## Key capabilities
+
+* Deterministic by design (bit-identical results)
+* Offline-first (no network, no telemetry)
+* Enterprise audit (human summary + single-line JSON)
+* Observability endpoints (/ping, /ready, /metrics, /last)
+* Cross-OS parity (Linux, macOS, Windows)
+
+## System requirements
+
+* Python 3.9–3.12
+* No external services or internet access required
+
+## Quickstart
+
+Run the demos from the repository root:
+
+```bash
+python demos/complete_demo_01_quick_start.py        # Deterministic sanity [OK]
+python demos/complete_demo_02_integration_loop.py   # Multiple cycles, 0 failures [OK]
+python demos/complete_demo_03_metrics_health.py     # Burst safety summary
+python demos/complete_demo_04_health_metrics.py     # /ping /ready /metrics /last -> 200 OK
+python demos/complete_demo_05_ci_cd_pipeline.py     # Prints AUDIT_SUMMARY_JSON={...}
+```
+
+### Expected signals
+
+* Demo 01: “Deterministic pipeline verified [OK]”
+* Demo 02: “… 0 failures”
+* Demo 03: “Deterministic under burst [OK]” + throttle/fail-safe summary
+* Demo 04: endpoints return 200 OK; metrics include uptime and request counts
+* Demo 05: single-line `AUDIT_SUMMARY_JSON={"bias_flags":0,"deterministic":true,...}` printed to stdout
+
+## Architecture (high level)
+
+* **Core**: deterministic container engine (encode/decode, CRC32, SHA-256)
+* **SelfTune**: deterministic safety/throttling (no randomness)
+* **Link**: inbox/outbox relay with byte-identical forwarding
+* **AEAD Hybrid**: authenticated encryption with reproducible outcomes
+* **Polyglot**: CLI bridges for stdin/stdout and file I/O
+
+## Security
+
+* No external network calls, telemetry, or hidden dependencies
+* Deterministic state hashing and authenticated integrity checks
+* Audit outputs suitable for CI and SIEM ingestion (single-line JSON)
+
+## Data policy (default)
+
+* Per-operation input cap: 512 MB (configurable)
+* Adjust via environment variable: `PAXECT_MAX_INPUT_MB` (e.g., 8192 for 8 GB)
+* For larger data: use chunking or streaming
+
+## Support and governance
+
+* Issues → bug reports and feature requests
+* Discussions → design and integration topics
+* Security contact → private, coordinated disclosure (see `SECURITY.md`)
+* Contributions follow deterministic, audit-compliant development policies
+
+## License
+
+Apache-2.0. See `LICENSE`.
+
+---
+
+
+
+
+
+
+
 ---
 <p align="center">
   <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
