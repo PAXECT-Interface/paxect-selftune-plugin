@@ -21,7 +21,9 @@
 A cross-platform, self-tuning engine that combines five adaptive control techniques in one unified module: guard mode, overhead control, logging, smoothing, and self-learning.
 Fully deterministic. No AI or heuristic randomness.
 
-Optimized for **Linux, Windows, macOS, FreeBSD, Android, and iOS** — plug-and-play with zero dependencies and no vendor lock-in.
+Optimized for **Linux, Windows, macOS, FreeBSD, Android, and iOS** 
+
+Plug-and-play with zero dependencies and no vendor lock-in.
 
 ---
 
