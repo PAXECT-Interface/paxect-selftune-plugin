@@ -276,46 +276,6 @@ Deterministic autotuning solutions for enterprise automation and runtime optimiz
 
 
 
-
-
-## PAXECT Core complete
-
-**Deterministic data container for modern systems:**
-PAXECT Core is a cross-platform, reproducible **`.freq` v42** container with **CRC32 per frame + SHA-256 footer** integrity, plug-and-play with zero dependencies and no vendor lock-in, **streaming Zstandard**, **multi-channel (1–8)** I/O, and full **stdin/stdout** support. Built for **offline**, auditable pipelines and **byte-identical** outcomes across OSes. 
-
-It pairs cleanly with the wider PAXECT-Core Complete  ecosystem: **AEAD Hybrid** (optional encryption), **Link** (inbox/outbox relay), **Polyglot** (language bridges), and **SelfTune** (runtime guardrails). **Zero telemetry.**
-
-*No AI heuristics, just stable, predictable, and verifiable data handling.*
-
-Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybrid" plugin (Hybrid AES‑GCM / ChaCha20‑Poly1305 — fast, zero‑dependencies, cross‑OS). Any screenshots or references to "aes" are outdated.
-## Supported Platforms & Languages
-
-**Operating systems:** Linux (Ubuntu, Debian, Fedora), macOS 13+, Windows 10/11, Android (Termux), iOS (Pyto), FreeBSD/OpenBSD (experimental).
-**Languages:** Official: Python. Via CLI/Polyglot: Node.js, Go. Also tested: Rust, Java, C/C++, C#, Swift, Kotlin, PHP, Ruby, R, Julia, MATLAB, Bash, PowerShell.
-
-
-**Operating Systems:**  
-- Windows 10/11 (x86_64)  
-- Linux (x86_64)  
-- macOS (Intel & Apple Silicon)  
-- Best-effort: FreeBSD, OpenBSD  
-- Edge devices: ARMv7 (experimental), ARM64 (planned), RISC-V (optional)  
-
-**Languages (via Polyglot Bridge):**  
-- Official: Python, Node.js, Go  
-- Also tested: Rust, Java, C#, C/C++, Swift, Kotlin, Ruby, PHP, R, Julia, MATLAB, Bash/PowerShell  
-- Any language that can spawn a process and read/write stdin/stdout
-- 
-- [Demo Suite](demos/README.md) — 10 deterministic cross-OS examples  
-- [Test Framework](README_TESTS.md) — validation, coverage, and CI integration  
-- [Security & Compliance](SECURITY.md) — conduct, license, and data policy
-
-![PAXECT Block 2](docs/paxect_block2_EN_why_orange_bars_fit.svg)
-
-
-![PAXECT Architecture](docs/paxect_architecture_brand_v18.svg)
-
-
 # PAXECT Core Complete
 
 
