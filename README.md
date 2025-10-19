@@ -459,7 +459,7 @@ In short: updates arrive when they are ready — verified, deterministic, and te
 
 > Determinism · Privacy · Reproducibility · Cross-Platform · Transparency
 
-
+Copyright© 2025 PAXECT Systems · Licensed under Apache 2.0
 
 
 
