@@ -210,6 +210,16 @@ If **PAXECT SelfTune** helped your research, deployment, or enterprise project,
 please consider giving the repository a [Star on GitHub](https://github.com/PAXECT-Interface/paxect-selftune-plugin/stargazers) —  
 it helps others discover the project and supports long-term maintenance.
 
+### 🔄 Updates & Maintenance
+
+PAXECT Core Complete follows an **open contribution model**.
+
+- Updates, bugfixes, and improvements depend on **community and maintainer availability**.
+- There is **no fixed release schedule** — stability and determinism are prioritized over speed.
+- Enterprises and contributors are encouraged to submit issues or pull requests for any enhancements.
+- The project owner focuses on innovation and architectural guidance rather than continuous support.
+
+In short: updates arrive when they are ready — verified, deterministic, and tested across platforms.
 
 
 
