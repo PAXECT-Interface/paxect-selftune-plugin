@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
+</p>
+
+
 # DISCLAIMER
 
 This software and all related materials are provided by **PAXECT** “as is”, without warranty of any kind.  
