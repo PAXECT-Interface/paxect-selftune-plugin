@@ -212,7 +212,7 @@ it helps others discover the project and supports long-term maintenance.
 
 ### 🔄 Updates & Maintenance
 
-PAXECT Core Complete follows an **open contribution model**.
+PAXECT Selftune Plugin follows an **open contribution model**.
 
 - Updates, bugfixes, and improvements depend on **community and maintainer availability**.
 - There is **no fixed release schedule** — stability and determinism are prioritized over speed.
