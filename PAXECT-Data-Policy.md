@@ -34,3 +34,6 @@ PAXECT intentionally implements a data size limit, just like other professional 
 ---
 
 **Questions or requests? Contact us or open a GitHub issue!**
+
+
+📧 PAXECT-Team@outlook.com
