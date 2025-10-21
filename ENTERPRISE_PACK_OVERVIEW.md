@@ -39,7 +39,7 @@ It focuses on:
 ---
 
 ## Community & Ownership
-- The PAXECT **Core** stays fully open source.  
+- The PAXECT **selftune** stays fully open source.  
 - The Enterprise Pack remains **proprietary** to the project Owner.  
 - Future **partners or maintainers** may co-develop or maintain enterprise extensions.
 - No vendor lock-in: organizations can always use the Core independently.
