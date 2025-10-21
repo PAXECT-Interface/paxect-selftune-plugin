@@ -3,14 +3,13 @@
 </p>
 
 [![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 [![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions)
 [![CodeQL](https://img.shields.io/badge/CodeQL-active-lightgrey.svg)](../../actions)
 [![Issues](https://img.shields.io/badge/Issues-open-blue)](../../issues)
 [![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
 [![NumPy Enabled](https://img.shields.io/badge/NumPy-integrated-blue.svg)](#)
-
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 
 
 
@@ -142,7 +141,7 @@ All seven demos were executed successfully on **Ubuntu 24.04 (x86_64)**, confirm
 
 | Plugin                         | Scope                           | Highlights                                                                           | Repo                                                                                                                           |
 | ------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Core**                       | Deterministic container         | `.freq` v42 · multi-channel · CRC32+SHA-256 · cross-OS · offline · no-AI             | [https://github.com/PAXECT-Interface/paxect---core.git](https://github.com/PAXECT-Interface/paxect---core.git)                             |
+| **Core**                       | Deterministic container         | `.freq` v42 · multi-channel · CRC32+SHA-256 · cross-OS · offline · no-AI             | [https://github.com/PAXECT-Interface/paxect-core.git](https://github.com/PAXECT-Interface/paxect-core.git)                             |
 | **AEAD Hybrid**                | Confidentiality & integrity     | Hybrid AES-GCM/ChaCha20-Poly1305 — fast, zero-dep, cross-OS                          | [https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin](https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin) |
 | **Polyglot**                   | Language bindings               | Python · Node.js · Go — identical deterministic pipeline                             | [https://github.com/PAXECT-Interface/paxect-polyglot-plugin](https://github.com/PAXECT-Interface/paxect-polyglot-plugin)       |
 | **SelfTune 5-in-1**            | Runtime control & observability | No-AI guardrails, overhead caps, backpressure, jitter smoothing, lightweight metrics | [https://github.com/PAXECT-Interface/paxect-selftune-plugin](https://github.com/PAXECT-Interface/paxect-selftune-plugin)       |
@@ -154,7 +153,7 @@ All seven demos were executed successfully on **Ubuntu 24.04 (x86_64)**, confirm
 
 
 
-## Path to Paid
+## Path to Paid - Paxect Selftune plugin
 
 **PAXECT** is built to stay free and open-source at its core.  
 At the same time, we recognize the need for a sustainable model to fund long-term maintenance and enterprise adoption.
@@ -251,8 +250,8 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 ### Contact
 
 PAXECT-Team@outlook.com  
- [Issues](https://github.com/PAXECT-Interface/PAXECT---Core/issues)  
- [Discussions](https://github.com/PAXECT-Interface/PAXECT---Core/discussions)  
+ [Issues](https://github.com/PAXECT-Interface/paxect-selftune-plugin/issues)  
+ [Discussions](https://github.com/PAXECT-Interface/paxect-selftune-plugin/discussions)  
 
 
 ---
@@ -276,14 +275,13 @@ Deterministic autotuning solutions for enterprise automation and runtime optimiz
 
 ---
 [![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 [![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions)
 [![CodeQL](https://img.shields.io/badge/CodeQL-active-lightgrey.svg)](../../actions)
 [![Issues](https://img.shields.io/badge/Issues-open-blue)](../../issues)
 [![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
 [![NumPy Enabled](https://img.shields.io/badge/NumPy-integrated-blue.svg)](#)
-
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 
 
 # PAXECT Core Complete
@@ -392,7 +390,7 @@ paxect-core-complete/
 
 | Plugin                         | Scope                           | Highlights                                                                           | Repo                                                                                                                           |
 | ------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Core**                       | Deterministic container         | `.freq` v42 · multi-channel · CRC32+SHA-256 · cross-OS · offline · no-AI             | [https://github.com/PAXECT-Interface/paxect---core.git](https://github.com/PAXECT-Interface/paxect---core.git)                             |
+| **Core**                       | Deterministic container         | `.freq` v42 · multi-channel · CRC32+SHA-256 · cross-OS · offline · no-AI             | [https://github.com/PAXECT-Interface/paxect-core.git](https://github.com/PAXECT-Interface/paxect-core.git)                             |
 | **AEAD Hybrid**                | Confidentiality & integrity     | Hybrid AES-GCM/ChaCha20-Poly1305 — fast, zero-dep, cross-OS                          | [https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin](https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin) |
 | **Polyglot**                   | Language bindings               | Python · Node.js · Go — identical deterministic pipeline                             | [https://github.com/PAXECT-Interface/paxect-polyglot-plugin](https://github.com/PAXECT-Interface/paxect-polyglot-plugin)       |
 | **SelfTune 5-in-1**            | Runtime control & observability | No-AI guardrails, overhead caps, backpressure, jitter smoothing, lightweight metrics | [https://github.com/PAXECT-Interface/paxect-selftune-plugin](https://github.com/PAXECT-Interface/paxect-selftune-plugin)       |
