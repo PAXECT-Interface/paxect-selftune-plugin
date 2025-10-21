@@ -10,12 +10,17 @@
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
 [![NumPy Enabled](https://img.shields.io/badge/NumPy-integrated-blue.svg)](#)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
+<a href="https://github.com/PAXECT-Interface/paxect-selftune-plugin/releases/latest">
+  <img alt="Release" src="https://img.shields.io/github/v/release/PAXECT-Interface/paxect-selftune-plugin?label= PAXECT selftune">
+</a>
 
 
 
 ---
 
 # PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
+
+> Status: **v1.0.0 — Initial Public Release** (see Releases)
 
 A cross-platform, self-tuning engine that combines five adaptive control techniques in one unified module: guard mode, overhead control, logging, smoothing, and self-learning.
 Fully deterministic. No AI or heuristic randomness.
