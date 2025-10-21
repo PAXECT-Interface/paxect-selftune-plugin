@@ -11,9 +11,8 @@
 [![NumPy Enabled](https://img.shields.io/badge/NumPy-integrated-blue.svg)](#)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 <a href="https://github.com/PAXECT-Interface/paxect-selftune-plugin/releases/latest">
-  <img alt="Release" src="https://img.shields.io/github/v/release/PAXECT-Interface/paxect-selftune-plugin?label= selftune">
+  <img alt="Release" src="https://img.shields.io/github/v/release/PAXECT-Interface/paxect-selftune-plugin?label=selftune">
 </a>
-
 
 
 ---
