@@ -1,10 +1,6 @@
 
 
 
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
-
 # Contributing Guidelines
 
 Welcome, and thank you for your interest in contributing to **PAXECT SelfTune**!
@@ -117,6 +113,4 @@ Your technical precision and time are deeply appreciated.
 ---
 
 
-
-Wil je dat ik deze meteen aanpas voor de **AEAD Hybrid Plugin** daarna (zelfde structuur, maar met encryptie-focus)?
 
