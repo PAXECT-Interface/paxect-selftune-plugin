@@ -19,7 +19,7 @@ The **open-source core** will always remain free and Apache-2.0 licensed:
 - Polyglot plugin (cross-language data flow)
 - SelfTune plugin (adaptive control logic)
 - Link plugin (relay + policy layer)
-- Demo suite (00–12) and CI matrix
+- Demo suite (01–04) and CI matrix
 
 The **Enterprise Pack** adds optional capabilities for organizations that need
 operational support, integrations, or compliance tooling.
