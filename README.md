@@ -675,47 +675,7 @@ paxect-core-complete, deterministic-runtime, reproducible-pipelines, secure-data
 
 
 
----
-<p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
-</p>
 
-
-
----
-<p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
-</p>
-
-
----
-<p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
-</p>
-
-
----
-<p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
-</p>
-
-
----
-<p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
-</p>
-
-
----
-<p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
-</p>
-
-
----
-<p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025%2C%2022_33_51.png" alt="PAXECT logo" width="200"/>
-</p>
 
 ## Keywords & Topics
 
