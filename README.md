@@ -658,8 +658,7 @@ Copyright © 2025 **PAXECT Systems** — All rights reserved.
 
 **PAXECT Core Complete** — a unified, deterministic, offline-first runtime ecosystem for secure, reproducible, cross-platform **data pipelines**.  
 It bundles **Core**, **AEAD Hybrid**, **Polyglot**, **SelfTune**, and **Link** into one verifiable, enterprise-grade, zero-telemetry platform —  
-built for auditability, reproducibility, and **NIS2-aligned digital hygiene**.
-
+built for auditability, reproducibility, and **NIS2-aligned digital hygiene**
 ---
 
 ### 🧩 Core Ecosystem
