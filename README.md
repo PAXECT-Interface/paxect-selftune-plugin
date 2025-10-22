@@ -19,7 +19,8 @@
 
 # PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
 
-> Status: **v1.0.0 — Initial Public Release** (see Releases)
+**Status:** v1.0.0 — Initial Public Release — October 22, 2025
+
 
 A cross-platform, self-tuning engine that combines five adaptive control techniques in one unified module: guard mode, overhead control, logging, smoothing, and self-learning.
 Fully deterministic. No AI or heuristic randomness.
