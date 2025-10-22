@@ -18,7 +18,7 @@
 ---
 
 
-# 🧠 PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
+#  PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
 
 **Status:** v1.0.0 — Initial Public Release — October 22, 2025
 
@@ -33,7 +33,7 @@ Plug-and-play with **zero dependencies**, **no telemetry**, and **no vendor lock
 
 ---
 
-## ⚙️ Overview
+##  Overview
 
 **PAXECT SelfTune** provides an **enterprise-ready performance-management layer** for deterministic pipelines and reproducible environments.
 Unlike typical heuristic or AI-driven optimizers, SelfTune operates **entirely offline**, ensuring stability and verifiability in critical systems.
@@ -42,7 +42,7 @@ It seamlessly integrates with **PAXECT Core** and the wider **PAXECT Core Comple
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * 🛡 **Guard Mode** — automatic fail-safe fallbacks to maintain deterministic runtime state
 * ⚖ **Dynamic Overhead Control** — default cap at 75 %; prevent CPU or I/O overshoot
@@ -54,7 +54,7 @@ It seamlessly integrates with **PAXECT Core** and the wider **PAXECT Core Comple
 
 ---
 
-## 🧩 Integrations
+##  Integrations
 
 SelfTune works as a core plugin within the **PAXECT Core Complete** runtime, interacting with:
 
@@ -65,7 +65,7 @@ SelfTune works as a core plugin within the **PAXECT Core Complete** runtime, int
 
 ---
 
-## 🧠 Use Cases
+##  Use Cases
 
 * CI/CD pipeline governance and predictable runtime profiling
 * On-premise data processing with deterministic throttling
