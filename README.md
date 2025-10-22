@@ -17,34 +17,67 @@
 
 ---
 
-# PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
+
+# 🧠 PAXECT SelfTune — Cross-Platform Autotune Enterprise Suite
 
 **Status:** v1.0.0 — Initial Public Release — October 22, 2025
 
+**Deterministic, offline-first, and reproducible — built for secure enterprise pipelines, adaptive control, and NIS2-ready digital hygiene.**
 
-A cross-platform, self-tuning engine that combines five adaptive control techniques in one unified module: guard mode, overhead control, logging, smoothing, and self-learning.
-Fully deterministic. No AI or heuristic randomness.
+**PAXECT SelfTune** is a **cross-platform deterministic runtime** that merges **five adaptive control subsystems** into one unified, auditable engine:
+**guard mode**, **overhead control**, **observability logging**, **runtime smoothing**, and **self-learning adaptation**.
+It delivers **predictable, zero-AI tuning** for real-world workloads while remaining fully reproducible across OS environments.
 
-Optimized for **Linux, Windows, macOS, FreeBSD, Android, and iOS** 
+Optimized for **Linux, Windows, macOS, FreeBSD, Android, and iOS**.
+Plug-and-play with **zero dependencies**, **no telemetry**, and **no vendor lock-in**.
 
-Plug-and-play with zero dependencies and no vendor lock-in.
+---
+
+## ⚙️ Overview
+
+**PAXECT SelfTune** provides an **enterprise-ready performance-management layer** for deterministic pipelines and reproducible environments.
+Unlike typical heuristic or AI-driven optimizers, SelfTune operates **entirely offline**, ensuring stability and verifiability in critical systems.
+
+It seamlessly integrates with **PAXECT Core** and the wider **PAXECT Core Complete** ecosystem to maintain bit-identical reproducibility and adaptive safety across dynamic workloads.
 
 ---
 
-## Overview
+## 🚀 Key Features
 
-**PAXECT SelfTune** is an enterprise-ready, open-source solution for deterministic performance tuning, automated optimization, and local observability.
-It operates fully offline, combining precision control with adaptive runtime learning for consistent optimization across diverse workloads.
-
-### Key Features
-
-* Guard mode with automatic failover
-* Dynamic overhead control (default: 75%)
-* Deterministic smoothing and logging
-* Self-learning without AI or cloud components
-* Designed for CI/CD, analytics, and secure offline environments
+* 🛡 **Guard Mode** — automatic fail-safe fallbacks to maintain deterministic runtime state
+* ⚖ **Dynamic Overhead Control** — default cap at 75 %; prevent CPU or I/O overshoot
+* 📊 **Deterministic Smoothing & Logging** — reproducible metrics, JSON summaries
+* 🔁 **Self-Learning Adaptation** — pattern-driven parameter adjustment (no AI, no cloud)
+* 🧩 **Cross-OS Integration** — identical behavior on Linux, macOS, Windows, and mobile
+* 🧠 **Observability Suite** — /metrics, /ready, /last endpoints for audit and profiling
+* 🔒 **Privacy by Design** — offline-first, NIS2-aligned digital hygiene
 
 ---
+
+## 🧩 Integrations
+
+SelfTune works as a core plugin within the **PAXECT Core Complete** runtime, interacting with:
+
+* **Core** – deterministic execution and checksum validation
+* **Link** – inbox/outbox relay performance guarding
+* **AEAD Hybrid** – secure cryptographic pipeline tuning
+* **Polyglot** – cross-language load balancing and performance bridging
+
+---
+
+## 🧠 Use Cases
+
+* CI/CD pipeline governance and predictable runtime profiling
+* On-premise data processing with deterministic throttling
+* Edge analytics and IoT systems needing offline autotuning
+* Research or HPC environments where reproducibility matters
+* Enterprise compliance testing and audit simulation scenarios
+
+
+
+---
+
+
 
 ## Demos Included
 
