@@ -22,6 +22,9 @@
 
 **Status:** v1.0.0 — Initial Public Release — October 22, 2025
 
+> 🌐 Learn more about the ecosystem: [PAXECT Universal Bridge](https://github.com/PAXECT-Interface/paxect-universal-bridge)
+
+
 **Deterministic, offline-first, and reproducible — built for secure enterprise pipelines, adaptive control, and NIS2-ready digital hygiene.**
 
 **PAXECT SelfTune** is a **cross-platform deterministic runtime** that merges **five adaptive control subsystems** into one unified, auditable engine:
