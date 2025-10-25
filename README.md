@@ -13,10 +13,13 @@
 <a href="https://github.com/PAXECT-Interface/paxect-selftune-plugin/releases/latest">
   <img alt="Release" src="https://img.shields.io/github/v/release/PAXECT-Interface/paxect-selftune-plugin?label=selftune">
 </a>
+# 🌐 PAXECT — The Universal Deterministic Bridge  
+**Build once, run anywhere.**  
+Connect all operating systems and programming languages through one reproducible, offline-first runtime.  
 
-#  PAXECT — The Universal Deterministic Bridge
-Build once, run anywhere. Connect all operating systems and programming languages through one reproducible, offline-first runtime.
-🌐 Learn more about the ecosystem: [PAXECT Universal Bridge](https://github.com/PAXECT-Interface/paxect-universal-bridge)
+🔗 Learn more about the ecosystem:  
+👉 [**PAXECT Universal Bridge ›**](https://github.com/PAXECT-Interface/paxect-universal-bridge)
+
 
 
 ---
